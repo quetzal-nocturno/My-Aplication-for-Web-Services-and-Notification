@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <!-- Here go the URL or IP Address of your API -->
+        <domain includeSubdomains="true"></domain>
+    </domain-config>
+</network-security-config>
